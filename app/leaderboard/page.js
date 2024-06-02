@@ -16,33 +16,48 @@ function Leaderboard() {
             </tr>
             <tr>
               <td>1</td>
-              <td>John Doejohndoe</td>
-              <td>3030</td>
+              <td>MAYUR VAIDYA</td>
+              <td>3873 👑</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>John Doejohndoe</td>
-              <td>3030</td>
+              <td>2</td>
+              <td>Saeel Gote</td>
+              <td>2819</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>John Doejohndoe</td>
-              <td>3030</td>
+              <td>3</td>
+              <td>Pratik Kukde</td>
+              <td>2045</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>John Doejohndoe</td>
-              <td>3030</td>
+              <td>4</td>
+              <td>Aditya Battin</td>
+              <td>2021</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>John Doejohndoe</td>
-              <td>3030</td>
+              <td>5</td>
+              <td>Swapnadip Repal</td>
+              <td>1864</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>John Doejohndoe</td>
-              <td>3030</td>
+              <td>6</td>
+              <td>Amod Manjarekar</td>
+              <td>1863</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Shreyash Patil</td>
+              <td>1847</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>ARHANT</td>
+              <td>1837</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Tusqasi Harisora</td>
+              <td>-1171</td>
             </tr>
           </tbody>
         </table>

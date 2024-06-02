@@ -7,11 +7,11 @@
 
 .results_container h1 {
   color: var(--headtext);
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .res_table {
-  width: 50vw;
+  /* width: 50vw; */
   border: none;
   background-color: #222;
 }
@@ -26,4 +26,10 @@
 
 .res_table th {
   text-align: left;
+}
+
+@media only screen and (min-width:786px) {
+  .res_table th, .res_table td {
+    padding: 1em 3em;
+  }
 }
