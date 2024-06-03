@@ -16,48 +16,58 @@ function Leaderboard() {
             </tr>
             <tr>
               <td>1</td>
-              <td>MAYUR VAIDYA</td>
-              <td>3873 👑</td>
+              <td>Shreyash Patil</td>
+              <td>2708 👑</td>
             </tr>
             <tr>
               <td>2</td>
-              <td>Saeel Gote</td>
-              <td>2819</td>
+              <td>Adwait Bokade</td>
+              <td>2692</td>
             </tr>
             <tr>
               <td>3</td>
-              <td>Pratik Kukde</td>
-              <td>2045</td>
+              <td>ARHANT</td>
+              <td>2687</td>
             </tr>
             <tr>
               <td>4</td>
-              <td>Aditya Battin</td>
-              <td>2021</td>
+              <td>Swapnadip Repal</td>
+              <td>2519</td>
             </tr>
             <tr>
               <td>5</td>
-              <td>Swapnadip Repal</td>
-              <td>1864</td>
+              <td>Tusqasi Harisora</td>
+              <td>2518</td>
             </tr>
             <tr>
               <td>6</td>
-              <td>Amod Manjarekar</td>
-              <td>1863</td>
+              <td>Pratik Kukde</td>
+              <td>2507</td>
             </tr>
             <tr>
               <td>7</td>
-              <td>Shreyash Patil</td>
-              <td>1847</td>
+              <td>Aditya Battin</td>
+              <td>2145</td>
             </tr>
             <tr>
               <td>8</td>
-              <td>ARHANT</td>
-              <td>1837</td>
+              <td>Saeel Gote</td>
+              <td>1703</td>
             </tr>
             <tr>
               <td>9</td>
-              <td>Tusqasi Harisora</td>
-              <td>-1171</td>
+              <td>Amod Manjarekar</td>
+              <td>1117</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Abhijeet Sangekar</td>
+              <td>526</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>MAYUR VAIDYA</td>
+              <td>487</td>
             </tr>
           </tbody>
         </table>
