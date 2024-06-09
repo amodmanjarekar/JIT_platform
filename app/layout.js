@@ -1,6 +1,7 @@
 import { Inter, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 export const pressStart = Press_Start_2P({ subsets: ["latin"], weight: "400" });
@@ -15,7 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        {children}
+        <Suspense>{children}</Suspense>
       </body>
     </html>
   );
