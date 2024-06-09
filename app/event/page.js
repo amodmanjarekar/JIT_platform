@@ -15,15 +15,15 @@ function Event() {
   const [finalText, setFinalText] = useState();
   const [, forceUpdate] = useReducer((x) => x + 1, 0);
 
-  if (eventId == "2") {
-    useEffect(() => {
-      var temp = [];
-      for (let i = 0; i < 100; i++) {
-        temp.push({ status: "E", number: i });
-      }
-      setCells(temp);
-    }, []);
+  useEffect(() => {
+    var temp = [];
+    for (let i = 0; i < 100; i++) {
+      temp.push({ status: "E", number: i });
+    }
+    setCells(temp);
+  }, []);
 
+  if (eventId == "2") {
     const handleGhost = (e, cell) => {
       e.preventDefault();
       ghostRef.current.style.top = `calc(${Math.floor(
@@ -196,6 +196,7 @@ function Event() {
             {cells.map((cell) => {
               return (
                 <div
+                  key={cell.number}
                   className={`${styles.layout_cell} ${
                     cell.status === "E" ? "" : getCellStyle(cell.status)
                   }`}
@@ -243,6 +244,7 @@ function Event() {
                 if (usedShips.includes(ship.ship_name)) {
                   return (
                     <button
+                      key={ship.ship_name}
                       onClick={() => {
                         let temp = usedShips;
                         let temp_i = usedShips.indexOf(ship.ship_name);
@@ -267,6 +269,7 @@ function Event() {
                 } else {
                   return (
                     <div
+                      key={ship.ship_name}
                       className={`${styles.ship} ${ship.ship_style} ${
                         isVertical ? styles.ship_rotate : ""
                       }`}
@@ -307,7 +310,7 @@ function Event() {
           <div className={styles.finalText}>
             <h3>Generated text:</h3>
             {finalText.map((text) => {
-              return <div>{text}</div>;
+              return <div key={text.split("")[0]}>{text}</div>;
             })}
           </div>
         ) : (
