@@ -1,0 +1,144 @@
+.grid_container {
+  --unit: 3rem;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.layout_grid {
+  position: relative;
+  display: grid;
+  width: fit-content;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.ship_ghost {
+  position: absolute;
+  display: none;
+  width: var(--unit);
+  height: var(--unit);
+  background-color: #000;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.layout_grid .layout_cell {
+  width: var(--unit);
+  height: var(--unit);
+  transform-origin: center;
+  scale: 0.8;
+  background-color: #249;
+}
+
+.layout_grid .filled_cellCA {
+  scale: 1;
+  background-color: black;
+}
+
+.layout_grid .filled_cellBA {
+  scale: 1;
+  background-color: pink;
+}
+
+.layout_grid .filled_cellCR {
+  scale: 1;
+  background-color: purple;
+}
+
+.layout_grid .filled_cellSU {
+  scale: 1;
+  background-color: green;
+}
+
+.layout_grid .filled_cellDE {
+  scale: 1;
+  background-color: white;
+}
+
+.items_container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.ships_container{
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  gap: 2em;
+  height: 100%;
+  background-color: #222;
+}
+
+.ships_container button {
+  border-radius: 0;
+  background-color: #666;
+  font-size: 1em;
+  padding: 1em;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.ships_container button:hover {
+  background-color: #fff;
+  color: #000
+}
+
+.ship {
+  height: var(--unit);
+  width: var(--unit);
+}
+
+.ship_rotate {
+  transform: rotate(90deg);
+}
+
+.ship_carrier {
+  width: calc(5 * var(--unit));
+  background-color: black;
+}
+
+.ship_battleship {
+  width: calc(4 * var(--unit));
+  background-color: pink;
+}
+
+.ship_cruiser {
+  width: calc(3 * var(--unit));
+  background-color: purple;
+}
+
+.ship_submarine {
+  width: calc(3 * var(--unit));
+  background-color: green;
+}
+
+.ship_destroyer {
+  width: calc(2 * var(--unit));
+  background-color: white;
+}
+
+.endBtn {
+  background-color: #fff;
+  color:#000;
+  border: none;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.endBtn:hover {
+  background-color: #ccc;
+}
+
+.finalText {
+  margin: 2em 20em;
+}
+
+.finalText > div {
+  border-left: 4px solid var(--headtext);
+  padding-left: 0.5em;
+}

@@ -1,7 +1,39 @@
-.main_container {
-  margin: 20em 5em;
+.hero_container {
+  margin: 5em;
 }
 
-.main_container h1 {
-  font-size: 5em;
+.hero_container h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.past_container h1 {
+  text-align: center;
+}
+
+.past_list {
+  display: grid;
+  padding: 1em;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.past_itemcard {
+  background-color: var(--primary);
+  display: flex;
+  padding: 1em;
+  /* width: fit-content; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.past_itemcard h2 {
+  font-size: 3em;
+}
+
+.past_itemcard .past_itemlinks {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
